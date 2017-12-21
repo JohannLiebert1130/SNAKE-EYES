@@ -16,3 +16,7 @@ def terms():
 @page.route('/privacy')
 def privacy():
     return render_template('page/privacy.html')
+
+@page.route('/FAQ')
+def faq():
+    return render_template('page/faq.html')
